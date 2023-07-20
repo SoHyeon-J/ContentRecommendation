@@ -4,12 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".test1">
-
-=======
     android:background="#2E2E2E"
-    tools:context=".test1">
+    tools:context=".test2">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -30,7 +26,7 @@
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="45dp"
         android:backgroundTint="#DF01A5"
-        android:text="나는 현실적인 편이다"
+        android:text="나는 인생에서 자극적인 것을 찾아다니는 편이다."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +38,7 @@
         android:layout_height="52dp"
         android:layout_marginBottom="421dp"
         android:fontFamily="@font/ddangsMedium"
-        android:text="질문1"
+        android:text="질문2"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
@@ -57,11 +53,10 @@
         android:layout_marginTop="472dp"
         android:layout_marginEnd="34dp"
         android:backgroundTint="#DF01A5"
-        android:text="나는 평소 감수성이 풍부한 편이다"
+        android:text="나는 모든 상황을 진지하게 받아들이는 편이다"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
->>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>

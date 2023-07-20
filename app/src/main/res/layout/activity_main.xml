@@ -13,7 +13,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="51dp"
         android:layout_marginEnd="51dp"
-        android:layout_marginBottom="109dp"
+        android:layout_marginBottom="108dp"
         android:backgroundTint="#DF01A5"
         android:text="~심리테스트 하러 가기~"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="142dp"
-        android:layout_marginEnd="19dp"
+        android:layout_marginEnd="5dp"
         android:layout_marginBottom="359dp"
         android:fontFamily="@font/ddangsMedium"
         android:text="컨텐츠러리"
@@ -35,16 +35,27 @@
         android:textColorHighlight="#FFFFFF"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="223dp"
         android:layout_height="403dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="14dp"
         app:layout_constraintBottom_toBottomOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:srcCompat="@drawable/popcorn" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="127dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/characterResult" />
 </androidx.constraintlayout.widget.ConstraintLayout>
