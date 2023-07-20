@@ -25,6 +25,7 @@
                 android:id="@+id/texthorro"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="@font/ddangs"
                 android:text="당신의 취향은 &quot;호러&quot; 입니다"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
