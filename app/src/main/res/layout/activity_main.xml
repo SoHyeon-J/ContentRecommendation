@@ -5,57 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2E2E2E"
+    android:backgroundTint="#2E2E2E"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/mainStartBtn"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="108dp"
-        android:backgroundTint="#DF01A5"
-        android:text="~심리테스트 하러 가기~"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maintitle"
-        app:strokeColor="#FFFFFF" />
-
     <TextView
-        android:id="@+id/maintitle"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="142dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="359dp"
+        android:layout_marginEnd="4dp"
         android:fontFamily="@font/ddangs"
         android:text="컨텐츠러리"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
-        app:layout_constraintEnd_toEndOf="@+id/mainchar"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <ImageView
-        android:id="@+id/mainpopcorn"
+        android:id="@+id/imageView"
         android:layout_width="223dp"
         android:layout_height="403dp"
-        android:layout_marginBottom="14dp"
-        app:layout_constraintBottom_toBottomOf="@+id/mainStartBtn"
-        app:layout_constraintStart_toStartOf="@+id/maintitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/popcorn" />
 
     <ImageView
-        android:id="@+id/mainchar"
+        android:id="@+id/imageView2"
         android:layout_width="127dp"
         android:layout_height="0dp"
         android:layout_marginTop="122dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="101dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/characterresult" />
+
+    <Button
+        android:id="@+id/mainStartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="111dp"
+        android:backgroundTint="@color/red"
+        android:text="~심리 테스트 하러 가기~"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

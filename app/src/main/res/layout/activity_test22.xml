@@ -13,13 +13,13 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="42dp"
-        app:layout_constraintEnd_toEndOf="@+id/upbutton1"
+        app:layout_constraintEnd_toEndOf="@+id/upbutton3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/characterresult" />
 
     <Button
-        android:id="@+id/downbutton1"
+        android:id="@+id/downbutton3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="34dp"
@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upbutton1" />
+        app:layout_constraintTop_toBottomOf="@+id/upbutton3" />
 
     <TextView
         android:id="@+id/q1"
@@ -41,12 +41,12 @@
         android:text="질문2"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/downbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/downbutton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/upbutton1"
+        android:id="@+id/upbutton3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="34dp"
@@ -54,7 +54,7 @@
         android:layout_marginEnd="34dp"
         android:backgroundTint="#DF01A5"
         android:text="나는 상상하는 것을 좋아하는 편이다"
-        app:layout_constraintBottom_toTopOf="@+id/downbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/downbutton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
