@@ -16,6 +16,9 @@
             android:name=".test3_2"
             android:exported="false" />
         <activity
+            android:name=".Result_romance"
+            android:exported="false" />
+        <activity
             android:name=".test4"
             android:exported="false" />
         <activity
