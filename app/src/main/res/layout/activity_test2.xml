@@ -14,13 +14,13 @@
         android:layout_height="659dp"
         android:layout_marginStart="34dp"
         android:layout_marginEnd="27dp"
-        app:layout_constraintBottom_toBottomOf="@+id/downbutton1"
-        app:layout_constraintEnd_toEndOf="@+id/upbutton1"
+        app:layout_constraintBottom_toBottomOf="@+id/downbutton2"
+        app:layout_constraintEnd_toEndOf="@+id/upbutton2"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/characterresult" />
 
     <Button
-        android:id="@+id/downbutton1"
+        android:id="@+id/downbutton2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="34dp"
@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upbutton1" />
+        app:layout_constraintTop_toBottomOf="@+id/upbutton2" />
 
     <TextView
         android:id="@+id/q1"
@@ -42,12 +42,12 @@
         android:text="질문2"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/downbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/downbutton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/upbutton1"
+        android:id="@+id/upbutton2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="34dp"
@@ -55,7 +55,7 @@
         android:layout_marginEnd="34dp"
         android:backgroundTint="#DF01A5"
         android:text="나는 모든 상황을 진지하게 받아들이는 편이다"
-        app:layout_constraintBottom_toTopOf="@+id/downbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/downbutton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

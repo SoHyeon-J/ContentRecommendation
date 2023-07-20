@@ -13,13 +13,13 @@
         android:layout_height="659dp"
         android:layout_marginStart="34dp"
         android:layout_marginEnd="27dp"
-        app:layout_constraintBottom_toBottomOf="@+id/downbutton1"
-        app:layout_constraintEnd_toEndOf="@+id/upbutton1"
+        app:layout_constraintBottom_toBottomOf="@+id/downbutton7"
+        app:layout_constraintEnd_toEndOf="@+id/upbutton7"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/characterresult" />
 
     <Button
-        android:id="@+id/downbutton1"
+        android:id="@+id/downbutton7"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="34dp"
@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upbutton1" />
+        app:layout_constraintTop_toBottomOf="@+id/upbutton7" />
 
     <TextView
         android:id="@+id/q1"
@@ -41,12 +41,12 @@
         android:text="질문3"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/downbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/downbutton7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/upbutton1"
+        android:id="@+id/upbutton7"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="34dp"
@@ -54,7 +54,7 @@
         android:layout_marginEnd="34dp"
         android:backgroundTint="#DF01A5"
         android:text="나는 낭만적인 편이다"
-        app:layout_constraintBottom_toTopOf="@+id/downbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/downbutton7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
