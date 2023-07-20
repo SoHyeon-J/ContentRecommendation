@@ -3,13 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#2E2E2E"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context=".test1">
 
-=======
-    android:background="#2E2E2E"
-    tools:context=".test1">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -63,5 +60,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
->>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>
