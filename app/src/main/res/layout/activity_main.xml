@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/mainStartBtn"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="51dp"
@@ -19,11 +19,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/maintitle"
         app:strokeColor="#FFFFFF" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/maintitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="142dp"
@@ -34,27 +34,27 @@
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
+        app:layout_constraintEnd_toEndOf="@+id/mainchar"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/mainpopcorn"
         android:layout_width="223dp"
         android:layout_height="403dp"
         android:layout_marginBottom="14dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/mainStartBtn"
+        app:layout_constraintStart_toStartOf="@+id/maintitle"
         app:srcCompat="@drawable/popcorn" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/mainchar"
         android:layout_width="127dp"
         android:layout_height="0dp"
         android:layout_marginTop="122dp"
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="101dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/characterresult" />
