@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2E2E2E"
-    tools:context=".test4">
-
+    tools:context=".test2_2">
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="0dp"
@@ -27,7 +26,7 @@
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="45dp"
         android:backgroundTint="#DF01A5"
-        android:text="나는 사회적 이슈에 관심이 많은 편이다"
+        android:text="나는 인생에서 자극적인 것을 찾아다니는 편이다."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,9 +36,9 @@
         android:id="@+id/textView2"
         android:layout_width="125dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="420dp"
+        android:layout_marginBottom="421dp"
         android:fontFamily="@font/ddangs"
-        android:text="질문3"
+        android:text="질문2"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
@@ -54,10 +53,9 @@
         android:layout_marginTop="472dp"
         android:layout_marginEnd="34dp"
         android:backgroundTint="#DF01A5"
-        android:text="나는 스스로 문제를 해결하는 것을 좋아하는 편이다"
+        android:text="나는 모든 상황을 진지하게 받아들이는 편이다"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

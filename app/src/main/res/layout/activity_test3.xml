@@ -38,7 +38,7 @@
         android:layout_width="125dp"
         android:layout_height="52dp"
         android:layout_marginBottom="416dp"
-        android:fontFamily="@font/ddangsMedium"
+        android:fontFamily="@font/ddangs"
         android:text="질문3"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
