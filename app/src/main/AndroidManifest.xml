@@ -28,6 +28,9 @@
             android:name=".test1"
             android:exported="false" />
         <activity
+            android:name=".Result_comedy"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
