@@ -14,7 +14,7 @@
         android:layout_width="198dp"
         android:layout_height="45dp"
         android:layout_marginTop="10dp"
-        android:text="출연 : 김상중, 강예원, 민지아, 박해진 외"
+        android:text="출연 : 장진, 하니, 박지윤, 장동민, 홍진호"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="11부작ㆍ청소년 관람 불가"
+        android:text="12부작ㆍ15세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -33,10 +33,10 @@
 
     <TextView
         android:id="@+id/annaott2"
-        android:layout_width="214dp"
-        android:layout_height="51dp"
+        android:layout_width="154dp"
+        android:layout_height="26dp"
         android:layout_marginTop="10dp"
-        android:text="시청 가능 OTT : 디즈니 플러스, 티빙"
+        android:text="시청 가능 OTT : 티빙"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
-        android:text="나쁜 녀석들(2014)"
+        android:text="크라임씬2(2015)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/ddangs"
-        android:text="당신의 취향은 &quot;범죄물&quot; 입니다"
+        android:text="당신의 취향은 &quot;추리물&quot; 입니다"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="29sp"
@@ -76,14 +76,14 @@
         app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textanimation"
-        app:srcCompat="@drawable/oceans" />
+        app:srcCompat="@drawable/knivesout" />
 
     <TextView
         android:id="@+id/octitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="오션스8(2018)"
+        android:text="나이브스 아웃(2019)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
@@ -94,7 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="15세 이용가"
+        android:text="12세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
@@ -102,10 +102,10 @@
 
     <TextView
         android:id="@+id/annaactor"
-        android:layout_width="180dp"
-        android:layout_height="47dp"
+        android:layout_width="195dp"
+        android:layout_height="75dp"
         android:layout_marginTop="10dp"
-        android:text="출연 : 애나벨 월리스, 워드 호튼, 알프리 우다드 외"
+        android:text="출연 : 크리스 에반스, 아나 데 아르마스, 다니엘 크레이그, 돈 존슨 외"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
@@ -116,7 +116,7 @@
         android:layout_width="200sp"
         android:layout_height="200sp"
         android:layout_marginBottom="90dp"
-        android:src="@drawable/badguys"
+        android:src="@drawable/crimescene"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -137,6 +137,49 @@
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toBottomOf="@+id/annaott2"
+        app:srcCompat="@drawable/tving" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="195dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="10dp"
+        android:text="시청 가능 OTT : 왓챠, 넷플릭스, 티빙"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/annaactor" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:srcCompat="@drawable/watcha" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/netfilx" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@drawable/tving" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

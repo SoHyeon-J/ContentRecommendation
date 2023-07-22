@@ -13,6 +13,15 @@
         android:theme="@style/Theme.ContentRecommendation"
         tools:targetApi="31">
         <activity
+            android:name=".Result_fantasy"
+            android:exported="false" />
+        <activity
+            android:name=".fantasy"
+            android:exported="false" />
+        <activity
+            android:name=".Result_reason"
+            android:exported="false" />
+        <activity
             android:name=".Result_criminal"
             android:exported="false" />
         <activity
