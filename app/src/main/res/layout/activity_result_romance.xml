@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/heposter"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginTop="30dp"
@@ -39,7 +39,7 @@
         android:text="괜찮아, 사랑이야(2014)"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/heposter"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
@@ -50,7 +50,7 @@
         android:text="16부작ㆍ15세이용가"
         android:textColor="@color/gray"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/heposter"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
@@ -61,18 +61,18 @@
         android:text="출연진: 조인성, 공효진, 성동일, 이광수"
         android:textColor="@color/white"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/heposter"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/swott"
         android:layout_width="195dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:text="시청가능 OTT: 티빙, 웨이브, 디즈니플러스"
         android:textColor="@color/white"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/heposter"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <ImageView
@@ -93,7 +93,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/swott" />
 
     <TextView
         android:id="@+id/textView2"

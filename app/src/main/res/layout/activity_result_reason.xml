@@ -7,54 +7,54 @@
     android:background="#2E2E2E"
     android:fontFamily="@font/ddangs"
     android:orientation="vertical"
-    tools:context=".Result_criminal">
+    tools:context=".Result_reason">
 
     <TextView
-        android:id="@+id/annaactor2"
+        android:id="@+id/cractor"
         android:layout_width="198dp"
         android:layout_height="45dp"
         android:layout_marginTop="10dp"
         android:text="출연 : 장진, 하니, 박지윤, 장동민, 홍진호"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaage2" />
+        app:layout_constraintStart_toEndOf="@+id/crposter"
+        app:layout_constraintTop_toBottomOf="@+id/crage" />
 
     <TextView
-        android:id="@+id/annaage2"
+        android:id="@+id/crage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="12부작ㆍ15세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annatitle2" />
+        app:layout_constraintStart_toEndOf="@+id/crposter"
+        app:layout_constraintTop_toBottomOf="@+id/crtitle" />
 
     <TextView
-        android:id="@+id/annaott2"
+        android:id="@+id/crott"
         android:layout_width="154dp"
         android:layout_height="26dp"
         android:layout_marginTop="10dp"
         android:text="시청 가능 OTT : 티빙"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaactor2" />
+        app:layout_constraintStart_toEndOf="@+id/crposter"
+        app:layout_constraintTop_toBottomOf="@+id/cractor" />
 
     <TextView
-        android:id="@+id/annatitle2"
+        android:id="@+id/crtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="260dp"
+        android:layout_marginTop="19dp"
         android:text="크라임씬2(2015)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9" />
+        app:layout_constraintStart_toEndOf="@+id/crposter"
+        app:layout_constraintTop_toBottomOf="@+id/knlogo1" />
 
     <TextView
-        android:id="@+id/textanimation"
+        android:id="@+id/textcriminal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -68,51 +68,49 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/knposter"
         android:layout_width="200dp"
         android:layout_height="200sp"
         android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textanimation"
+        app:layout_constraintTop_toBottomOf="@+id/textcriminal"
         app:srcCompat="@drawable/knivesout" />
 
     <TextView
-        android:id="@+id/octitle"
+        android:id="@+id/kntitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="나이브스 아웃(2019)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textanimation" />
+        app:layout_constraintStart_toEndOf="@+id/knposter"
+        app:layout_constraintTop_toBottomOf="@+id/textcriminal" />
 
     <TextView
-        android:id="@+id/annaage"
+        android:id="@+id/knage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="12세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/octitle" />
+        app:layout_constraintStart_toEndOf="@+id/knposter"
+        app:layout_constraintTop_toBottomOf="@+id/kntitle" />
 
     <TextView
-        android:id="@+id/annaactor"
+        android:id="@+id/knactor"
         android:layout_width="195dp"
         android:layout_height="75dp"
         android:layout_marginTop="10dp"
         android:text="출연 : 크리스 에반스, 아나 데 아르마스, 다니엘 크레이그, 돈 존슨 외"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/annaage" />
+        app:layout_constraintStart_toEndOf="@+id/knposter"
+        app:layout_constraintTop_toBottomOf="@+id/knage" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/crposter"
         android:layout_width="200sp"
         android:layout_height="200sp"
         android:layout_marginBottom="90dp"
@@ -121,65 +119,53 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/crlogo1"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaott2"
-        app:srcCompat="@drawable/diseny" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/annaott2"
+        app:layout_constraintStart_toEndOf="@+id/crposter"
+        app:layout_constraintTop_toBottomOf="@+id/crott"
         app:srcCompat="@drawable/tving" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/knott"
         android:layout_width="195dp"
         android:layout_height="47dp"
         android:layout_marginTop="10dp"
         android:text="시청 가능 OTT : 왓챠, 넷플릭스, 티빙"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/annaactor" />
+        app:layout_constraintStart_toEndOf="@+id/knposter"
+        app:layout_constraintTop_toBottomOf="@+id/knactor" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/knlogo1"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="200dp"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/knott"
         app:srcCompat="@drawable/watcha" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48"
-        app:srcCompat="@drawable/netfilx" />
-
-    <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/knlogo2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintStart_toEndOf="@+id/knlogo1"
+        app:layout_constraintTop_toBottomOf="@+id/knott"
+        app:srcCompat="@drawable/netfilx" />
+
+    <ImageView
+        android:id="@+id/knlogo3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/knlogo2"
+        app:layout_constraintTop_toBottomOf="@+id/knott"
         app:srcCompat="@drawable/tving" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
