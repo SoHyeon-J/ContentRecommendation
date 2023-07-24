@@ -16,12 +16,12 @@ class test1 : AppCompatActivity() {
         downbutton1 = findViewById(R.id.downbutton1)
 
         upbutton1.setOnClickListener {
-            val intent = Intent(this, test2::class.java)
+            val intent = Intent(this, test2_2::class.java)
             startActivity(intent)
         }
 
         downbutton1.setOnClickListener {
-            val intent = Intent(this, test2_2::class.java)
+            val intent = Intent(this, test2::class.java)
             startActivity(intent)
         }
     }
