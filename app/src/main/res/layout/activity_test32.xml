@@ -8,7 +8,7 @@
     tools:context=".test3_2">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/character"
         android:layout_width="0dp"
         android:layout_height="558dp"
         android:layout_marginStart="34dp"
