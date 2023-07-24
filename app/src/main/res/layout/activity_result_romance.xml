@@ -88,12 +88,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="48dp"
         android:text="플립(2010)"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/swott" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <TextView
         android:id="@+id/textView2"
