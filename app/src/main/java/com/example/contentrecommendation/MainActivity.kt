@@ -7,16 +7,18 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var mainStartBtn: Button
-
+    lateinit var mainStartbtn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        mainStartBtn = findViewById(R.id.mainStartBtn)
 
-        mainStartBtn.setOnClickListener {
-            var intent = Intent(this, test1::class.java )
+        mainStartbtn = findViewById(R.id.mainStartBtn)
+
+        mainStartbtn.setOnClickListener{
+            var intent = Intent(this, test1::class.java)
             startActivity(intent)
         }
+
+
     }
 }
