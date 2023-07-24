@@ -10,51 +10,51 @@
     tools:context=".Result_criminal">
 
     <TextView
-        android:id="@+id/annaactor2"
+        android:id="@+id/baactor"
         android:layout_width="198dp"
         android:layout_height="45dp"
         android:layout_marginTop="10dp"
         android:text="출연 : 김상중, 강예원, 민지아, 박해진 외"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaage2" />
+        app:layout_constraintStart_toEndOf="@+id/baposter"
+        app:layout_constraintTop_toBottomOf="@+id/baage" />
 
     <TextView
-        android:id="@+id/annaage2"
+        android:id="@+id/baage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="11부작ㆍ청소년 관람 불가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annatitle2" />
+        app:layout_constraintStart_toEndOf="@+id/baposter"
+        app:layout_constraintTop_toBottomOf="@+id/batitle" />
 
     <TextView
-        android:id="@+id/annaott2"
+        android:id="@+id/baott"
         android:layout_width="214dp"
         android:layout_height="51dp"
         android:layout_marginTop="10dp"
         android:text="시청 가능 OTT : 디즈니 플러스, 티빙"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaactor2" />
+        app:layout_constraintStart_toEndOf="@+id/baposter"
+        app:layout_constraintTop_toBottomOf="@+id/baactor" />
 
     <TextView
-        android:id="@+id/annatitle2"
+        android:id="@+id/batitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="260dp"
+        android:layout_marginTop="164dp"
         android:text="나쁜 녀석들(2014)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9" />
+        app:layout_constraintStart_toEndOf="@+id/baposter"
+        app:layout_constraintTop_toBottomOf="@+id/ocactor" />
 
     <TextView
-        android:id="@+id/textanimation"
+        android:id="@+id/textcriminal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -68,14 +68,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/ocposter"
         android:layout_width="200dp"
         android:layout_height="200sp"
         android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textanimation"
+        app:layout_constraintTop_toBottomOf="@+id/textcriminal"
         app:srcCompat="@drawable/oceans" />
 
     <TextView
@@ -86,33 +84,33 @@
         android:text="오션스8(2018)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textanimation" />
+        app:layout_constraintStart_toEndOf="@+id/ocposter"
+        app:layout_constraintTop_toBottomOf="@+id/textcriminal" />
 
     <TextView
-        android:id="@+id/annaage"
+        android:id="@+id/ocage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="15세 이용가"
+        android:text="12세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/ocposter"
         app:layout_constraintTop_toBottomOf="@+id/octitle" />
 
     <TextView
-        android:id="@+id/annaactor"
+        android:id="@+id/ocactor"
         android:layout_width="180dp"
         android:layout_height="47dp"
         android:layout_marginTop="10dp"
-        android:text="출연 : 애나벨 월리스, 워드 호튼, 알프리 우다드 외"
+        android:text="출연 : 앤 해서웨이, 리아나, 산드라 블록, 민디 캘링 외"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/annaage" />
+        app:layout_constraintStart_toEndOf="@+id/ocposter"
+        app:layout_constraintTop_toBottomOf="@+id/ocage" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/baposter"
         android:layout_width="200sp"
         android:layout_height="200sp"
         android:layout_marginBottom="90dp"
@@ -121,22 +119,22 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/balogo1"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaott2"
+        app:layout_constraintStart_toEndOf="@+id/baposter"
+        app:layout_constraintTop_toBottomOf="@+id/baott"
         app:srcCompat="@drawable/diseny" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/balogo2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/annaott2"
+        app:layout_constraintStart_toEndOf="@+id/balogo1"
+        app:layout_constraintTop_toBottomOf="@+id/baott"
         app:srcCompat="@drawable/tving" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

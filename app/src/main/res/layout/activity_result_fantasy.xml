@@ -7,43 +7,43 @@
     android:background="#2E2E2E"
     android:fontFamily="@font/ddangs"
     android:orientation="vertical"
-    tools:context=".Result_criminal">
+    tools:context=".Result_fantasy">
 
     <TextView
-        android:id="@+id/annaactor2"
+        android:id="@+id/stactor"
         android:layout_width="197dp"
         android:layout_height="69dp"
         android:layout_marginTop="10dp"
         android:text="출연 : 위노나 라이더, 밀리 바비 브라운, 나탈리아 다이어, 조 키어리 외"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaage2" />
+        app:layout_constraintStart_toEndOf="@+id/stposter"
+        app:layout_constraintTop_toBottomOf="@+id/stage" />
 
     <TextView
-        android:id="@+id/annaage2"
+        android:id="@+id/stage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="9부작ㆍ15세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annatitle2" />
+        app:layout_constraintStart_toEndOf="@+id/stposter"
+        app:layout_constraintTop_toBottomOf="@+id/sttitle" />
 
     <TextView
-        android:id="@+id/annaott2"
+        android:id="@+id/stott"
         android:layout_width="182dp"
         android:layout_height="23dp"
         android:layout_marginTop="10dp"
         android:text="시청 가능 OTT : 넷플릭스"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaactor2" />
+        app:layout_constraintStart_toEndOf="@+id/stposter"
+        app:layout_constraintTop_toBottomOf="@+id/stactor" />
 
     <TextView
-        android:id="@+id/annatitle2"
+        android:id="@+id/sttitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
@@ -51,10 +51,10 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9" />
+        app:layout_constraintStart_toEndOf="@+id/stposter" />
 
     <TextView
-        android:id="@+id/textanimation"
+        android:id="@+id/textfantasy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -68,51 +68,51 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/heposter"
         android:layout_width="200dp"
         android:layout_height="200sp"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textanimation"
+        app:layout_constraintTop_toBottomOf="@+id/textfantasy"
         app:srcCompat="@drawable/herrypotter" />
 
     <TextView
-        android:id="@+id/octitle"
+        android:id="@+id/hetitle"
         android:layout_width="166dp"
         android:layout_height="53dp"
         android:layout_marginTop="30dp"
         android:text="해리포터와 불의 잔(2005)"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textanimation" />
+        app:layout_constraintStart_toEndOf="@+id/heposter"
+        app:layout_constraintTop_toBottomOf="@+id/textfantasy" />
 
     <TextView
-        android:id="@+id/annaage"
+        android:id="@+id/anage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="12세 이용가"
         android:textColor="#a0a0a0"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/octitle" />
+        app:layout_constraintStart_toEndOf="@+id/heposter"
+        app:layout_constraintTop_toBottomOf="@+id/hetitle" />
 
     <TextView
-        android:id="@+id/annaactor"
+        android:id="@+id/heactor"
         android:layout_width="196dp"
         android:layout_height="47dp"
         android:layout_marginTop="10dp"
         android:text="출연 : 엠마 왓슨, 로버트 패틴슨, 루퍼트 그린트, 톰 펠튼 외"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/annaage" />
+        app:layout_constraintStart_toEndOf="@+id/heposter"
+        app:layout_constraintTop_toBottomOf="@+id/anage" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/stposter"
         android:layout_width="200sp"
         android:layout_height="200sp"
         android:layout_marginBottom="90dp"
@@ -121,32 +121,32 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/stlogo1"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/annaott2"
+        app:layout_constraintStart_toEndOf="@+id/stposter"
+        app:layout_constraintTop_toBottomOf="@+id/stott"
         app:srcCompat="@drawable/netfilx" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/heott"
         android:layout_width="165dp"
         android:layout_height="23dp"
         android:layout_marginTop="10dp"
         android:text="시청 가능 OTT : 웨이브"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/annaactor" />
+        app:layout_constraintStart_toEndOf="@+id/heposter"
+        app:layout_constraintTop_toBottomOf="@+id/heactor" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/helogo1"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintStart_toEndOf="@+id/heposter"
+        app:layout_constraintTop_toBottomOf="@+id/heott"
         app:srcCompat="@drawable/wave" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
