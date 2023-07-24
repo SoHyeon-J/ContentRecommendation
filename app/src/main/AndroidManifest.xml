@@ -16,19 +16,34 @@
             android:name=".Result_fantasy"
             android:exported="false" />
         <activity
-            android:name=".fantasy"
-            android:exported="false" />
-        <activity
             android:name=".Result_reason"
             android:exported="false" />
         <activity
             android:name=".Result_criminal"
             android:exported="false" />
         <activity
-            android:name=".test3_2"
+            android:name=".Result_animation"
+            android:exported="false" />
+        <activity
+            android:name=".Result_horror"
             android:exported="false" />
         <activity
             android:name=".Result_romance"
+            android:exported="false" />
+        <activity
+            android:name=".Result_comedy"
+            android:exported="false" />
+        <activity
+            android:name=".Result_documentary"
+            android:exported="false" />
+        <activity
+            android:name=".test3_2"
+            android:exported="false" />
+        <activity
+            android:name=".test3_3"
+            android:exported="false" />
+        <activity
+            android:name=".test2_2"
             android:exported="false" />
         <activity
             android:name=".test4"
@@ -42,9 +57,7 @@
         <activity
             android:name=".test1"
             android:exported="false" />
-        <activity
-            android:name=".test1"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

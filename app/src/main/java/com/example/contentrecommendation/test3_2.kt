@@ -13,7 +13,7 @@ class test3_2 : AppCompatActivity() {
         setContentView(R.layout.activity_test32)
 
         upbutton5 = findViewById(R.id.upbutton5)
-        downbutton5 = findViewById(R.id.upbutton5)
+        downbutton5 = findViewById(R.id.downbutton5)
 
         upbutton5.setOnClickListener {
             var intent = Intent(this, Result_animation::class.java)

@@ -13,7 +13,7 @@ class test3 : AppCompatActivity() {
         setContentView(R.layout.activity_test3)
 
         upbutton4 = findViewById(R.id.upbutton4)
-        downbutton4 = findViewById(R.id.upbutton4)
+        downbutton4 = findViewById(R.id.downbutton4)
 
         upbutton4.setOnClickListener {
             var intent = Intent(this, Result_horror::class.java)

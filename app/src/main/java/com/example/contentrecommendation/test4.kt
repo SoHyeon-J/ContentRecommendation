@@ -11,11 +11,12 @@ class test4 : AppCompatActivity() {
     lateinit var downbutton7 : Button
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        upbutton7 = findViewById(R.id.upbutton7)
-        downbutton7 = findViewById(R.id.downbutton7)
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test4)
+
+        upbutton7 = findViewById(R.id.upbutton7)
+        downbutton7 = findViewById(R.id.downbutton7)
 
         upbutton7.setOnClickListener {
             var intent = Intent(this, Result_romance::class.java)
