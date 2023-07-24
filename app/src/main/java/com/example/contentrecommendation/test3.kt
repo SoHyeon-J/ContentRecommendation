@@ -16,12 +16,12 @@ class test3 : AppCompatActivity() {
         downbutton4 = findViewById(R.id.upbutton4)
 
         upbutton4.setOnClickListener {
-            var intent = Intent(this, Result_horror::class.java)
+            var intent = Intent(this, Result_criminal::class.java)
             startActivity(intent)
         }
 
         downbutton4.setOnClickListener {
-            var intent = Intent(this, Result_criminal::class.java)
+            var intent = Intent(this, Result_horror::class.java)
             startActivity(intent)
         }
     }
