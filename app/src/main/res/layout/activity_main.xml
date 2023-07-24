@@ -7,6 +7,29 @@
     android:background="#2E2E2E"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="446dp"
+        android:layout_height="343dp"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/film" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="442dp"
+        android:layout_height="330dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/film" />
+
     <ImageView
         android:id="@+id/imageView31"
         android:layout_width="47dp"
@@ -71,14 +94,15 @@
         android:id="@+id/maintitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="9dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="129dp"
         android:fontFamily="@font/ddangs"
         android:text="컨텐츠러리"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textColorHighlight="#FFFFFF"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/mainchar"
-        app:layout_constraintEnd_toEndOf="@+id/mainchar" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/mainpopcorn"
@@ -88,30 +112,23 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/popcorn" />
 
     <ImageView
-        android:id="@+id/mainchar"
-        android:layout_width="134dp"
-        android:layout_height="175dp"
-        android:layout_marginBottom="128dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="@+id/mainpopcorn"
-        app:layout_constraintStart_toEndOf="@+id/mainpopcorn"
-        app:srcCompat="@drawable/characterresult" />
-
-    <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="0dp"
-        android:layout_height="89dp"
+        android:layout_width="129dp"
+        android:layout_height="123dp"
         android:layout_marginStart="23dp"
         android:layout_marginEnd="22dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
         app:layout_constraintEnd_toEndOf="@+id/mainStartBtn"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="@+id/imageView32"
         app:srcCompat="@android:drawable/ic_search_category_default" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
