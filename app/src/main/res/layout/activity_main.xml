@@ -9,17 +9,17 @@
 
     <Button
         android:id="@+id/mainStartBtn"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="108dp"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="#DF01A5"
         android:text="~심리테스트 하러 가기~"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maintitle"
         app:strokeColor="#FFFFFF" />
 
     <TextView
@@ -40,10 +40,11 @@
 
     <ImageView
         android:id="@+id/mainpopcorn"
-        android:layout_width="223dp"
-        android:layout_height="403dp"
-        android:layout_marginBottom="14dp"
-        app:layout_constraintBottom_toBottomOf="@+id/mainStartBtn"
+        android:layout_width="236dp"
+        android:layout_height="337dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
         app:layout_constraintStart_toStartOf="@+id/maintitle"
         app:srcCompat="@drawable/popcorn" />
 
