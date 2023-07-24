@@ -8,107 +8,110 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="44dp"
-        android:layout_height="51dp"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="63dp" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="44dp"
-        android:layout_height="51dp"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="63dp" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="44dp"
-        android:layout_height="51dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/imageView31"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="180dp"
+        app:layout_constraintBottom_toTopOf="@+id/maintitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:layout_editor_absoluteY="63dp" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="44dp"
-        android:layout_height="51dp"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="63dp" />
+        app:srcCompat="@android:drawable/star_big_on" />
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="44dp"
-        android:layout_height="51dp"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="63dp" />
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="296dp"
+        app:layout_constraintBottom_toTopOf="@+id/maintitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/maintitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/maintitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="240dp"
+        app:layout_constraintBottom_toTopOf="@+id/maintitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/star_big_on" />
 
     <Button
         android:id="@+id/mainStartBtn"
-        android:layout_width="315dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="80dp"
+        android:layout_width="317dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="89dp"
         android:backgroundTint="#DF01A5"
         android:text="~심리테스트 하러 가기~"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainpopcorn"
         app:strokeColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/maintitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="142dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="359dp"
+        android:layout_marginEnd="9dp"
         android:fontFamily="@font/ddangs"
         android:text="컨텐츠러리"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
-        app:layout_constraintEnd_toEndOf="@+id/mainchar"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/mainchar"
+        app:layout_constraintEnd_toEndOf="@+id/mainchar" />
 
     <ImageView
         android:id="@+id/mainpopcorn"
-        android:layout_width="236dp"
-        android:layout_height="337dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="23dp"
+        android:layout_width="237dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="50dp"
         app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
-        app:layout_constraintStart_toStartOf="@+id/maintitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/popcorn" />
 
     <ImageView
         android:id="@+id/mainchar"
-        android:layout_width="127dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="122dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="101dp"
-        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="134dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/mainpopcorn"
+        app:layout_constraintStart_toEndOf="@+id/mainpopcorn"
         app:srcCompat="@drawable/characterresult" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="80dp"
+        android:layout_width="0dp"
         android:layout_height="89dp"
-        android:layout_marginTop="356dp"
-        android:layout_marginEnd="72dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainStartBtn"
+        app:layout_constraintEnd_toEndOf="@+id/mainStartBtn"
+        app:layout_constraintStart_toStartOf="@+id/imageView32"
         app:srcCompat="@android:drawable/ic_search_category_default" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
