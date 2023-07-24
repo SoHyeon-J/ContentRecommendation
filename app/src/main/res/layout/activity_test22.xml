@@ -58,4 +58,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="94dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/upbutton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/question" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="81dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginBottom="247dp"
+        app:layout_constraintBottom_toBottomOf="@+id/character"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/question" />
 </androidx.constraintlayout.widget.ConstraintLayout>
