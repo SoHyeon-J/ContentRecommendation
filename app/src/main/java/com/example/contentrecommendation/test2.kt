@@ -12,6 +12,7 @@ class test2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test2)
+
         upbutton2 = findViewById(R.id.upbutton2)
         downbutton2 = findViewById(R.id.upbutton2)
 
